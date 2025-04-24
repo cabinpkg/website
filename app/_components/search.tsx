@@ -18,6 +18,7 @@ export function SearchButton() {
 
     return (
         <Input
+            className="w-96"
             type="search"
             placeholder="Search packages"
             aria-label="Search packages"
