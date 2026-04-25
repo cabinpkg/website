@@ -21,7 +21,7 @@
         "@fortawesome/free-brands-svg-icons": "^7.2.0",
         "@fortawesome/free-solid-svg-icons": "^7.2.0",
         "@fortawesome/react-fontawesome": "^3.3.0",
-        "@heroui/react": "2.8.9",
+        "@heroui/react": "3.0.3",
         "@heroui/theme": "^2.4.19",
         "@vercel/analytics": "^2.0.1",
         "@vercel/speed-insights": "^2.0.0",
