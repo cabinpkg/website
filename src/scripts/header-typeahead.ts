@@ -35,12 +35,6 @@ function initHeaderTypeahead() {
     const input: HTMLInputElement = inputEl;
     const list: HTMLUListElement = listEl;
 
-    input.setAttribute("role", "combobox");
-    input.setAttribute("aria-autocomplete", "list");
-    input.setAttribute("aria-expanded", "false");
-    input.setAttribute("aria-controls", list.id);
-    input.setAttribute("aria-haspopup", "listbox");
-
     const combobox = new Combobox(input, list, {
         tabInsertsSuggestions: false,
         firstOptionSelectionMode: "none",
